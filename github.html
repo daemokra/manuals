@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>GitHubでプッシュするまでの流れ.md</title>
+<title>GitHubマニュアル</title>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
 <style>
@@ -367,13 +367,12 @@ code {
   </script>
 <!-- TOC -->
 <ul>
-<li><a href="#%E7%9B%AE%E6%AC%A1">目次</a></li>
 <li><a href="#1-%E5%8F%82%E8%80%83">1. 参考</a></li>
 <li><a href="#2-%E8%87%AA%E5%88%86%E7%94%A8">2. 自分用</a></li>
 <li><a href="#3-github%E3%81%A7%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E4%BD%9C%E6%88%90">3. GitHubでリモートリポジトリ作成</a></li>
 <li><a href="#4-clone">4. clone</a>
 <ul>
-<li><a href="#41-git-remote-add-url-%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%A6%E3%82%8B%E3%82%84%E3%81%A4%E3%82%82%E3%81%84%E3%82%8B">4.1. git remote add URL で説明してるやつもいる！</a></li>
+<li><a href="#41-git-remote-add-url-%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%A6%E3%82%8B%E3%81%B2%E3%81%A8%E3%82%82%E3%81%84%E3%82%8B">4.1. git remote add URL で説明してるひともいる！</a></li>
 </ul>
 </li>
 <li><a href="#5-%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%81%A7%E3%83%96%E3%83%A9%E3%83%B3%E3%83%81%E3%82%92%E5%88%87%E3%82%8B">5. ローカルでブランチを切る</a></li>
@@ -398,7 +397,7 @@ code {
 <h1 id="4-clone">4. clone</h1>
 <pre class="hljs"><code><div>git clone  &lt;url&gt;
 </div></code></pre>
-<h2 id="41-git-remote-add-url-%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%A6%E3%82%8B%E3%82%84%E3%81%A4%E3%82%82%E3%81%84%E3%82%8B">4.1. git remote add URL で説明してるやつもいる！</h2>
+<h2 id="41-git-remote-add-url-%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%A6%E3%82%8B%E3%81%B2%E3%81%A8%E3%82%82%E3%81%84%E3%82%8B">4.1. git remote add URL で説明してるひともいる！</h2>
 <pre class="hljs"><code><div>git init <span class="hljs-comment">// 『ローカル』リポジトリの初期化</span>
 git remote add origin repoURL <span class="hljs-comment">// 現在のローカルリポジトリにリモートのリポジトリを追加する</span>
 </div></code></pre>
@@ -407,6 +406,7 @@ git remote add origin repoURL <span class="hljs-comment">// 現在のローカ�
 基本的にcloneでいいと思われる。詳しいことは知らん。<br>
 ローカルのリポジトリで管理することなんてなく、GitHub上でしか管理しないので<br>
 cloneで十分。</p>
+<p>(参考)<a href="https://hokaccha.hatenablog.com/entry/20110802/1312278626">initしてremote addするのとcloneするのの違い - hokaccha memo</a></p>
 <h1 id="5-%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%81%A7%E3%83%96%E3%83%A9%E3%83%B3%E3%83%81%E3%82%92%E5%88%87%E3%82%8B">5. ローカルでブランチを切る</h1>
 <pre class="hljs"><code><div>git checkout -b &lt;branch name&gt;
 </div></code></pre>
